@@ -13,5 +13,5 @@ def root():
     return {
         "project": settings.app_name,
         "version": settings.version,
-        "status": "development"
+        "status": "development",
     }
